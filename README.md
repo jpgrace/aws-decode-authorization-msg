@@ -4,9 +4,9 @@ A bash script for decoding an AWS encoded authorization message.
 
 ## Prerequisites
 
-- The AWS CLI
-- The jq script
-- Fancy-bash
+- The [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+- [The jq script](https://stedolan.github.io/jq/download/)
+- [Fancy-bash](https://github.com/jpgrace/fancy-bash)
 
 ## Usage
 
