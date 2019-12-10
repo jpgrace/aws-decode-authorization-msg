@@ -25,7 +25,7 @@ if [[ ! $(command -v jq) ]]; then
 fi
 
 if [[ $exit_code == 0 ]]; then
-  aws sts decode-authorization-message --encoded-message "${ENCODED_MSG}" | jq '.DecodedMessage | fromjson'
+  aws sts decode-authorization-message --encoded-message="${ENCODED_MSG}" | jq '.DecodedMessage | fromjson'
 fi
 
 exit $exit_code
